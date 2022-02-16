@@ -1,0 +1,19 @@
+<div class="card">
+   <div class="card-header">
+    <div class="row space-between">
+        <div class="col-md-10"><h1>Listado</h1></div>       
+        <div class="col-md-2"><a class="btn btn-primary float-right" asp-controller="Marcas" asp-action="">Nuevo</a></div> 
+  </div>
+  </div>
+  <div class="card-body">
+      <table id="datatable" class="table table-bordered dt-responsive nowrap dataTable no-footer dtr-inline collapsed" style="border-collapse: collapse; border-spacing: 0px; width: 100%;" role="grid" aria-describedby="datatable_info">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+</table>
+  </div>
+</div>
